@@ -237,10 +237,10 @@ body{
   border: 1px solid rgba(0,0,0,.06);
   box-shadow: 0 12px 30px rgba(0,0,0,.10);
 }
-.price__name{font-weight:900; margin-bottom:6px;}
+.price__name{font-weight:600; margin-bottom:6px;}
 .price__value{
   color: var(--orange);
-  font-weight: 950;
+  font-weight: 750;
   font-size: 22px;
 }
 
