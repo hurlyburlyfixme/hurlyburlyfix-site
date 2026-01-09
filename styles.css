@@ -337,7 +337,7 @@ body{
 .social-icon svg{
   width:18px;
   height:18px;
-  display:block;
+  display:flex;
   fill: currentColor;
 }
 
@@ -350,6 +350,7 @@ footer .social-icons{
   align-items:center;
   gap:14px;
   margin-top:16px;
+  width:fit-content;
 }
 Center footer social icons under phone
 
