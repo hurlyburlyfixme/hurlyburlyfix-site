@@ -344,4 +344,11 @@ body{
 .social-icon:hover{
   transform: translateY(-1px);
 }
+footer .social-icons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  margin-top:16px;
+}
 
