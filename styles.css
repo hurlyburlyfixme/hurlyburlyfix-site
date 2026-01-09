@@ -148,23 +148,6 @@ body{
 }
 .btn--ghost:hover{background: rgba(255,255,255,.08)}
 
-.social{display:flex; gap:20px; margin-top:40px}
-.social__icon{
-  width:42px; height:42px;
-  display:flex; align-items:center; justify-content:center;
-  border-radius: 999px;
-  border: 2px solid rgba(224,123,47,.85);
-  color: rgba(224,123,47,.95);
-  text-decoration:none;
-  font-weight:900;
-  background: rgba(0,0,0,.08);
-}
-.social__icon:hover{
-  background: rgba(224,123,47,.18);
-  border-color: rgba(224,123,47,1);
-  color: rgba(224,123,47,1);
-}
-
 .cards{
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -317,33 +300,39 @@ body{
 
 .social-icons{
   display:flex;
-  gap:12px;
   align-items:center;
+  gap:18px;          /* повече "въздух" между иконите */
+  margin-top:20px;   /* повече "въздух" отгоре (Hero) */
 }
 
 .social-icon{
-  width:40px;
-  height:40px;
+  width:42px;
+  height:42px;
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  border:2px solid currentColor;
   border-radius:999px;
-  color: var(--accent, #e58a2f);
+  border:2px solid rgba(224,123,47,.85);
+  color: rgba(224,123,47,.95);
   text-decoration:none;
   line-height:0;
+  background: rgba(0,0,0,.08);
 }
 
 .social-icon svg{
   width:18px;
   height:18px;
-  display:flex;
+  display:block;
   fill: currentColor;
 }
 
 .social-icon:hover{
+  background: rgba(224,123,47,.18);
+  border-color: rgba(224,123,47,1);
+  color: rgba(224,123,47,1);
   transform: translateY(-1px);
 }
+
 footer .social-icons{
   display:flex;
   justify-content:center;
@@ -352,7 +341,7 @@ footer .social-icons{
   margin-top:16px;
   width:fit-content;
 }
-Center footer social icons under phone
+
 .footer {
   text-align: center;
 }
