@@ -315,6 +315,12 @@ body{
   align-items:center;
 }
 
+.social-icons{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
 .social-icon{
   width:40px;
   height:40px;
@@ -323,13 +329,19 @@ body{
   justify-content:center;
   border:2px solid currentColor;
   border-radius:999px;
-  color:#e58a2f; /* оранжево */
+  color: var(--accent, #e58a2f);
   text-decoration:none;
+  line-height:0;
 }
 
 .social-icon svg{
   width:18px;
   height:18px;
   display:block;
-  fill:currentColor;
+  fill: currentColor;
 }
+
+.social-icon:hover{
+  transform: translateY(-1px);
+}
+
