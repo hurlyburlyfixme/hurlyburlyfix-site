@@ -301,3 +301,27 @@ body{
   cursor: pointer;
 }
 .lightbox__close:hover{background: rgba(255,255,255,.20)}
+.social-icons{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.social-icon{
+  width:40px;
+  height:40px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:2px solid currentColor;
+  border-radius:999px;
+  color:#e58a2f; /* оранжево */
+  text-decoration:none;
+}
+
+.social-icon svg{
+  width:18px;
+  height:18px;
+  display:block;
+  fill:currentColor;
+}
