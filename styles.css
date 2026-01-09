@@ -351,5 +351,14 @@ body{
   margin:16px auto 0 auto;
   width:fit-content;
 }
+/* CONTACT – center social icons under phone */
+#contact .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 16px auto 0 auto;
+  width: fit-content;
+}
 
 
