@@ -353,4 +353,12 @@ footer .social-icons{
   width:fit-content;
 }
 Center footer social icons under phone
+.footer {
+  text-align: center;
+}
+
+.footer .social-icons {
+  justify-content: center; /* центрира иконите */
+  margin-top: 16px;
+}
 
