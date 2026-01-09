@@ -333,21 +333,14 @@ body{
   transform: translateY(-1px);
 }
 
+footer{
+  text-align:center;
+}
+
 footer .social-icons{
-  display:flex;
   justify-content:center;
-  align-items:center;
-  gap:14px;
-  margin-top:16px;
+  margin:16px auto 0 auto;
   width:fit-content;
 }
 
-.footer {
-  text-align: center;
-}
-
-.footer .social-icons {
-  justify-content: center; /* центрира иконите */
-  margin-top: 16px;
-}
 
