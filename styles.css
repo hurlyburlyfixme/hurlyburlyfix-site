@@ -374,5 +374,23 @@ body{
   margin: 16px auto 0 auto;
   width: fit-content;
 }
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.card_content{
+  display: block;
+}
+
+.ba_wrap{
+  margin-top: 24px;
+}
+
+.ba{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
 
 
