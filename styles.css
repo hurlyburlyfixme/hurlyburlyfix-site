@@ -38,7 +38,7 @@ body{
   border-bottom: 1px solid rgba(255,255,255,.10);
 }
 .brand{display:flex; align-items:center; gap:10px; text-decoration:none}
-.brand__logo{height:44px; width:auto; display:block}
+.brand__logo{height:56px; width:auto; display:block}
 
 .nav{display:flex; gap:18px; align-items:center}
 .nav a{
