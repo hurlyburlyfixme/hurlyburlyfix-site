@@ -5,18 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Primary SEO -->
-  <title>Професионална организация на дом и гардероб в София | Hurly-Burly Fix</title>
+  <title>Организация и разчистване на дом и гардероб в София | Hurly-Burly Fix</title>
   <meta name="description" content="Професионално разчистване и организация на дом, гардероб и стаи в София. Ясен процес, видими резултати. На място / онлайн / хибрид." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
 
   <!-- Canonical -->
   <link rel="canonical" href="https://hurlyburlyfix.me/" />
-  <link rel="alternate" hreflang="bg" href="https://hurlyburlyfix.me/" />
 
   <!-- Favicon -->
   <link rel="icon" href="assets/logo.png" />
 
-  <!-- Open Graph (for Facebook/LinkedIn) -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Hurly-Burly Fix" />
   <meta property="og:title" content="Hurly-Burly Fix — От хаос към ред (София)" />
@@ -27,13 +26,13 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hurly-Burly Fix — От хаос към ред (София)" />
-  <meta name="twitter:description" content="Професионална организация на дом, гардероб и стаи. Ясен процес, видими резултати." />
+  <meta name="twitter:description" content="Организация на дом, гардероб и стаи. Ясен процес, видими резултати." />
   <meta name="twitter:image" content="https://hurlyburlyfix.me/assets/hero.jpg" />
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Google Analytics 4 (keep your existing ID) -->
+  <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LTKWNX7EQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -50,9 +49,9 @@
     "name":"Hurly-Burly Fix",
     "url":"https://hurlyburlyfix.me/",
     "telephone":"+359988371908",
-    "areaServed":"Sofia, Bulgaria",
     "image":"https://hurlyburlyfix.me/assets/hero.jpg",
-    "description":"Професионална организация на дом, гардероб и стаи. На място / онлайн / хибрид.",
+    "description":"Професионално разчистване и организация на дом, гардероб и стаи. На място / онлайн / хибрид.",
+    "areaServed":[{"@type":"City","name":"Sofia"}],
     "address":{
       "@type":"PostalAddress",
       "addressLocality":"Sofia",
@@ -64,26 +63,27 @@
 
 <body>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="Hurly-burly fix me">
-      <img class="brand__logo" src="assets/logo.png" alt="Hurly-burly fix me logo" />
+    <a class="brand" href="#top" aria-label="Hurly-Burly Fix">
+      <img class="brand__logo" src="assets/logo.png" alt="Hurly-Burly Fix лого" />
     </a>
 
-    <nav class="nav">
+    <nav class="nav" aria-label="Основна навигация">
       <a href="#solutions" data-i18n="nav_services">Услуги</a>
       <a href="#prices" data-i18n="nav_prices">Цени</a>
       <a href="#how" data-i18n="nav_how">Как работи</a>
       <a href="#contact" data-i18n="nav_contact">Контакт</a>
+      <a href="#faq" data-i18n="nav_faq">Въпроси</a>
     </nav>
 
     <div class="topbar__right">
-      <div class="lang">
-        <button class="lang__btn is-active" data-lang="bg">BG</button>
+      <div class="lang" aria-label="Език">
+        <button class="lang__btn is-active" data-lang="bg" type="button">BG</button>
         <span class="lang__sep">|</span>
-        <button class="lang__btn" data-lang="en">EN</button>
+        <button class="lang__btn" data-lang="en" type="button">EN</button>
       </div>
 
-      <a class="call" href="tel:+359988371908" aria-label="Call now">
-        <span class="call__icon">☎</span>
+      <a class="call" href="tel:+359988371908" aria-label="Обади се">
+        <span class="call__icon" aria-hidden="true">☎</span>
         <span class="call__text">+359 988 371 908</span>
       </a>
     </div>
@@ -91,8 +91,8 @@
 
   <main id="top">
     <!-- HERO -->
-    <section class="hero" aria-label="Hero">
-      <div class="hero__bg" role="img" aria-label="Interior background"></div>
+    <section class="hero" aria-label="Hurly-Burly Fix — организация и разчистване">
+      <div class="hero__bg" role="img" aria-label="Интериорен фон"></div>
       <div class="hero__overlay"></div>
 
       <div class="hero__content">
@@ -102,13 +102,13 @@
         </h1>
 
         <p class="hero__subtitle" data-i18n="hero_subtitle">
-          Ти знаеш проблема. Ние знаем решението - органицация, функция и висуален баланс.
+          Ти знаеш проблема. Ние знаем решението — организация, функция и визуален баланс.
         </p>
 
-        <div class="chips">
+        <div class="chips" aria-label="Ключови предимства">
           <span class="chip" data-i18n="chip_1">На място / Онлайн / Хибрид</span>
           <span class="chip" data-i18n="chip_2">Ясен процес, видими резултати</span>
-          <span class="chip" data-i18n="chip_3">организация + интериорно проектиране</span>
+          <span class="chip" data-i18n="chip_3">Организация + интериорно мислене</span>
         </div>
 
         <div class="hero__cta">
@@ -116,206 +116,206 @@
           <a class="btn btn--ghost" href="tel:+359988371908" data-i18n="cta_call">Обади се</a>
         </div>
 
-       <div class="social-icons">
-  <a class="social-icon" href="https://www.facebook.com/profile.php?id=61583352183946" target="_blank" rel="noopener" aria-label="Facebook">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.88h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
-  </a>
+        <div class="social-icons" aria-label="Социални мрежи">
+          <a class="social-icon" href="https://www.facebook.com/profile.php?id=61583352183946" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.88h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
+          </a>
 
-  <a class="social-icon" href="https://www.instagram.com/hurlyburlyfixme/" target="_blank" rel="noopener" aria-label="Instagram">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.8 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></svg>
-  </a>
+          <a class="social-icon" href="https://www.instagram.com/hurlyburlyfixme/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.8 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></svg>
+          </a>
 
-  <a class="social-icon" href="https://linktr.ee/hurlyburlyfixme" target="_blank" rel="noopener" aria-label="Linktree">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.6-3.6a3 3 0 1 1 4.2 4.2l-2.1 2.1a1 1 0 1 1-1.4-1.4l2.1-2.1a1 1 0 1 0-1.4-1.4l-3.6 3.6a1 1 0 0 1-1.4 0z"/><path d="M13.4 10.6a1 1 0 0 1 0 1.4l-3.6 3.6a3 3 0 1 1-4.2-4.2l2.1-2.1a1 1 0 1 1 1.4 1.4l-2.1 2.1a1 1 0 1 0 1.4 1.4l3.6-3.6a1 1 0 0 1 1.4 0z"/></svg>
-  </a>
+          <a class="social-icon" href="https://linktr.ee/hurlyburlyfixme" target="_blank" rel="noopener" aria-label="Linktree">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.6-3.6a3 3 0 1 1 4.2 4.2l-2.1 2.1a1 1 0 1 1-1.4-1.4l2.1-2.1a1 1 0 1 0-1.4-1.4l-3.6 3.6a1 1 0 0 1-1.4 0z"/><path d="M13.4 10.6a1 1 0 0 1 0 1.4l-3.6 3.6a3 3 0 1 1-4.2-4.2l2.1-2.1a1 1 0 1 1 1.4 1.4l-2.1 2.1a1 1 0 1 0 1.4 1.4l3.6-3.6a1 1 0 0 1 1.4 0z"/></svg>
+          </a>
 
-  <a class="social-icon" href="mailto:hurlyburlyfix@gmail.com" aria-label="Email">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
-  </a>
-</div>
+          <a class="social-icon" href="mailto:hurlyburlyfix@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
 
+        <!-- SEO intro (visible text) -->
+        <p class="hero__seo" data-i18n="hero_seo">
+          Hurly-Burly Fix предлага професионално разчистване и организация на дом, гардероб и стаи в София. Подходът е практичен, с ясна логика на съхранение и устойчив ред.
+        </p>
       </div>
     </section>
 
-   <!-- SOLUTIONS -->
-<section id="solutions" class="section">
-  <div class="container">
-    <h2 class="section__title" data-i18n="solutions_title">Решения</h2>
-    <p class="section__lead" data-i18n="solutions_lead">Избираш проблема. Получаваш ясен резултат.</p>
+    <!-- SOLUTIONS -->
+    <section id="solutions" class="section">
+      <div class="container">
+        <h2 class="section__title" data-i18n="solutions_title">Решения</h2>
+        <p class="section__lead" data-i18n="solutions_lead">Избираш проблема. Получаваш ясен резултат.</p>
 
-    <!-- IMPORTANT: this must be .cards (3 columns) -->
-    <div class="cards">
+        <div class="cards">
+          <!-- Solution 1 -->
+          <article class="card">
+            <h3 class="card_title" data-i18n="s1_title">Една зона ме побърква</h3>
+            <p class="card_kicker" data-i18n="s1_kicker">Бърз резултат. Фиксирана цена.</p>
 
-      <!-- Solution 1 -->
-      <article class="card">
-        <h3 class="card_title" data-i18n="s1_title">Една зона ме побърква</h3>
-        <p class="card_kicker" data-i18n="s1_kicker">Бърз резултат. Фиксирана цена.</p>
-
-        <p class="card_text" data-i18n="s1_p1">Понякога проблемът не е в целия дом, а в една конкретна зона.</p>
-        <p class="card_text" data-i18n="s1_p2">
-          Тази услуга е за ситуации, в които точно определено място – гардероб, кухня, антре, склад или шкаф – е претоварено, неясно или трудно за поддържане. Подходът е практичен и изцяло съобразен с начина ти на използване на пространството.
-        </p>
-
-        <div class="grid2">
-          <div>
-            <h4 class="card__subtitle" data-i18n="do_title">Какво се прави:</h4>
-            <ul class="list">
-              <li data-i18n="s1_do_1">анализ на съдържанието и навиците</li>
-              <li data-i18n="s1_do_2">селекция: кое остава и кое излиза</li>
-              <li data-i18n="s1_do_3">функционално разпределение (кой предмет къде и защо)</li>
-              <li data-i18n="s1_do_4">оптимално използване на наличното пространство</li>
-              <li data-i18n="s1_do_5">подредба, която е лесна за поддържане, не временна</li>
-            </ul>
-
-            <p class="energy" data-i18n="s1_energy">
-              Премахва всичко, което вече не използвате, не знаете че го имате, няма нужда от него, освобождавате пространствто за нови вдъхновяващи вещи. Изобилието изисква място, а положителната енергия протича там, където пространството е балансирано.
+            <p class="card_text" data-i18n="s1_p1">Понякога проблемът не е в целия дом, а в една конкретна зона.</p>
+            <p class="card_text" data-i18n="s1_p2">
+              Тази услуга е за ситуации, в които точно определено място — гардероб, кухня, антре, склад или шкаф — е претоварено, неясно или трудно за поддържане. Подходът е практичен и изцяло съобразен с начина ти на използване на пространството.
             </p>
 
-            <h4 class="card__subtitle" data-i18n="help_title">Как помага:</h4>
-            <ul class="list">
-              <li data-i18n="s1_help_1">спираш да търсиш</li>
-              <li data-i18n="s1_help_2">знаеш къде е всичко</li>
-              <li data-i18n="s1_help_3">освобождаваш пространство и внимание</li>
-              <li data-i18n="s1_help_4">зоната започва да работи за теб</li>
-            </ul>
-          </div>
-        </div>
+            <div class="grid2">
+              <div>
+                <h4 class="card__subtitle" data-i18n="do_title">Какво се прави:</h4>
+                <ul class="list">
+                  <li data-i18n="s1_do_1">анализ на съдържанието и навиците</li>
+                  <li data-i18n="s1_do_2">селекция: кое остава и кое излиза</li>
+                  <li data-i18n="s1_do_3">функционално разпределение (кой предмет къде и защо)</li>
+                  <li data-i18n="s1_do_4">оптимално използване на наличното пространство</li>
+                  <li data-i18n="s1_do_5">подредба, която е лесна за поддържане, не временна</li>
+                </ul>
 
-        <!-- Images ALWAYS at the bottom -->
-        <div class="ba_wrap">
-          <div class="ba">
-            <button class="ba__img" data-full="assets/sol1-before.jpg" type="button">
-              <img src="assets/sol1-before.jpg" alt="Before" />
-              <span class="ba__label" data-i18n="before">Преди</span>
-            </button>
-            <button class="ba__img" data-full="assets/sol1-after.jpg" type="button">
-              <img src="assets/sol1-after.jpg" alt="After" />
-              <span class="ba__label" data-i18n="after">След</span>
-            </button>
-          </div>
-        </div>
-      </article>
+                <p class="energy" data-i18n="s1_energy">
+                  Премахваме всичко, което не използваш, не ти е нужно или пречи на подредбата. Освобождаваме пространство за важните вещи и създаваме ясна логика, която се поддържа лесно.
+                </p>
 
-      <!-- Solution 2 -->
-      <article class="card">
-        <h3 class="card_title" data-i18n="s2_title">Стаята не работи</h3>
-        <p class="card_kicker" data-i18n="s2_kicker">Цяла стая. Повече функция. По-добро усещане.</p>
+                <h4 class="card__subtitle" data-i18n="help_title">Как помага:</h4>
+                <ul class="list">
+                  <li data-i18n="s1_help_1">спираш да търсиш</li>
+                  <li data-i18n="s1_help_2">знаеш къде е всичко</li>
+                  <li data-i18n="s1_help_3">освобождаваш пространство и внимание</li>
+                  <li data-i18n="s1_help_4">зоната започва да работи за теб</li>
+                </ul>
+              </div>
+            </div>
 
-        <p class="card_text" data-i18n="s2_p1">
-          Когато стаята е подредена, но не функционира добре, проблемът не е в броя вещи, а в разпределението.
-        </p>
+            <div class="ba_wrap">
+              <div class="ba">
+                <button class="ba__img" data-full="assets/sol1-before.jpg" type="button">
+                  <img src="assets/sol1-before.jpg" alt="Преди — зона" />
+                  <span class="ba__label" data-i18n="before">Преди</span>
+                </button>
+                <button class="ba__img" data-full="assets/sol1-after.jpg" type="button">
+                  <img src="assets/sol1-after.jpg" alt="След — зона" />
+                  <span class="ba__label" data-i18n="after">След</span>
+                </button>
+              </div>
+            </div>
+          </article>
 
-        <h4 class="card_subtitle" data-i18n="s2_for_title">Подходящо, ако:</h4>
-        <ul class="list">
-          <li data-i18n="s2_for_1">не е удобно</li>
-          <li data-i18n="s2_for_2">не е балансирано</li>
-          <li data-i18n="s2_for_3">не се усеща добре</li>
-          <li data-i18n="s2_for_4">не използваш потенциала му</li>
-        </ul>
+          <!-- Solution 2 -->
+          <article class="card">
+            <h3 class="card_title" data-i18n="s2_title">Стаята не работи</h3>
+            <p class="card_kicker" data-i18n="s2_kicker">Цяла стая. Повече функция. По-добро усещане.</p>
 
-        <p class="card_text" data-i18n="s2_p2">
-          Работя на ниво цяла стая, като комбинирам организация и интериорно мислене.
-        </p>
-
-        <div class="grid2">
-          <div>
-            <h4 class="card__subtitle" data-i18n="do_title">Какво се прави:</h4>
-            <ul class="list">
-              <li data-i18n="s2_do_1">анализ на функцията на стаята</li>
-              <li data-i18n="s2_do_2">преразпределение на зоните</li>
-              <li data-i18n="s2_do_3">пренареждане на мебели</li>
-              <li data-i18n="s2_do_4">организация на съхранението (гардероб, скрин, шкафове)</li>
-              <li data-i18n="s2_do_5">малки козметични промени за по-добра визия и усещане (без ремонт)</li>
-            </ul>
-
-            <p class="energy" data-i18n="s2_energy">
-              Хармонията не се гради с късмет, а с правилните функционални решения за вещите, които ползваме и които премахваме. Чистото пространство изчиства енергията ни и така просперитетът ни ще намери път до нас самите.
+            <p class="card_text" data-i18n="s2_p1">
+              Когато стаята е подредена, но не функционира добре, проблемът не е в броя вещи, а в разпределението.
             </p>
 
-            <h4 class="card__subtitle" data-i18n="help_title">Как помага:</h4>
+            <h4 class="card_subtitle" data-i18n="s2_for_title">Подходящо, ако:</h4>
             <ul class="list">
-              <li data-i18n="s2_help_1">движиш се по-лесно в пространството</li>
-              <li data-i18n="s2_help_2">използваш стаята по предназначение</li>
-              <li data-i18n="s2_help_3">усещаш повече лекота и ред</li>
-              <li data-i18n="s2_help_4">стаята изглежда по-ясна, подредена и спокойна</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="ba_wrap">
-          <div class="ba">
-            <button class="ba__img" data-full="assets/sol2-before.png" type="button">
-              <img src="assets/sol2-before.png" alt="Before room" />
-              <span class="ba__label" data-i18n="before">Преди</span>
-            </button>
-            <button class="ba__img" data-full="assets/sol2-after.png" type="button">
-              <img src="assets/sol2-after.png" alt="After room" />
-              <span class="ba__label" data-i18n="after">След</span>
-            </button>
-          </div>
-        </div>
-      </article>
-
-      <!-- Solution 3 -->
-      <article class="card">
-        <h3 class="card_title" data-i18n="s3_title">Домът има нужда от рестарт</h3>
-        <p class="card_kicker" data-i18n="s3_kicker">Цял дом. Системен рестарт. Ред + дизайн.</p>
-
-        <p class="card_text" data-i18n="s3_p1">Когато домът има нужда от рестарт, частичните решения не работят.</p>
-        <p class="card_text" data-i18n="s3_p2">
-          Това е цялостна услуга за апартамент или къща, при която се работи системно – от съдържанието на шкафовете до общата логика на пространството и начина, по който се използва.
-        </p>
-
-        <h4 class="card_subtitle" data-i18n="s3_for_title">Подходящо за:</h4>
-        <ul class="list">
-          <li data-i18n="s3_for_1">нов дом</li>
-          <li data-i18n="s3_for_2">нов етап от живота</li>
-          <li data-i18n="s3_for_3">натрупан хаос с години</li>
-          <li data-i18n="s3_for_4">нужда от яснота, ред и ново усещане</li>
-        </ul>
-
-        <div class="grid2">
-          <div>
-            <h4 class="card__subtitle" data-i18n="do_title">Какво се прави:</h4>
-            <ul class="list">
-              <li data-i18n="s3_do_1">цялостна организация на вещи по зони</li>
-              <li data-i18n="s3_do_2">функционално зониране на жилището</li>
-              <li data-i18n="s3_do_3">логика на движение и използване</li>
-              <li data-i18n="s3_do_4">аранжиране и декорация</li>
-              <li data-i18n="s3_do_5">при необходимост – интериорно решение и насоки за цялостна визия</li>
+              <li data-i18n="s2_for_1">не е удобно</li>
+              <li data-i18n="s2_for_2">не е балансирано</li>
+              <li data-i18n="s2_for_3">не се усеща добре</li>
+              <li data-i18n="s2_for_4">не използваш потенциала му</li>
             </ul>
 
-            <p class="energy" data-i18n="s3_energy">
-              Домът е разширение на нашата енергия. Хаусът разваля мира, единството и изобилието. Премахва безпорядъка - разхвърляната среда отразява вътрешният ни дисбаланс, когато се погрижим всичко да си е на място, ще се погрижим и за самите нас.
+            <p class="card_text" data-i18n="s2_p2">
+              Работя на ниво цяла стая, като комбинирам организация и интериорно мислене.
             </p>
 
-            <h4 class="card__subtitle" data-i18n="help_title">Как помага:</h4>
+            <div class="grid2">
+              <div>
+                <h4 class="card__subtitle" data-i18n="do_title">Какво се прави:</h4>
+                <ul class="list">
+                  <li data-i18n="s2_do_1">анализ на функцията на стаята</li>
+                  <li data-i18n="s2_do_2">преразпределение на зоните</li>
+                  <li data-i18n="s2_do_3">пренареждане на мебели</li>
+                  <li data-i18n="s2_do_4">организация на съхранението (гардероб, скрин, шкафове)</li>
+                  <li data-i18n="s2_do_5">малки козметични промени за по-добра визия и усещане (без ремонт)</li>
+                </ul>
+
+                <p class="energy" data-i18n="s2_energy">
+                  Хармонията идва от функционални решения и ясна логика на използване. Когато пространството работи, ежедневието става по-леко.
+                </p>
+
+                <h4 class="card__subtitle" data-i18n="help_title">Как помага:</h4>
+                <ul class="list">
+                  <li data-i18n="s2_help_1">движиш се по-лесно в пространството</li>
+                  <li data-i18n="s2_help_2">използваш стаята по предназначение</li>
+                  <li data-i18n="s2_help_3">усещаш повече лекота и ред</li>
+                  <li data-i18n="s2_help_4">стаята изглежда по-ясна, подредена и спокойна</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ba_wrap">
+              <div class="ba">
+                <button class="ba__img" data-full="assets/sol2-before.png" type="button">
+                  <img src="assets/sol2-before.png" alt="Преди — стая" />
+                  <span class="ba__label" data-i18n="before">Преди</span>
+                </button>
+                <button class="ba__img" data-full="assets/sol2-after.png" type="button">
+                  <img src="assets/sol2-after.png" alt="След — стая" />
+                  <span class="ba__label" data-i18n="after">След</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 3 -->
+          <article class="card">
+            <h3 class="card_title" data-i18n="s3_title">Домът има нужда от рестарт</h3>
+            <p class="card_kicker" data-i18n="s3_kicker">Цял дом. Системен рестарт. Ред + дизайн.</p>
+
+            <p class="card_text" data-i18n="s3_p1">Когато домът има нужда от рестарт, частичните решения не работят.</p>
+            <p class="card_text" data-i18n="s3_p2">
+              Това е цялостна услуга за апартамент или къща, при която се работи системно — от съдържанието на шкафовете до общата логика на пространството и начина, по който се използва.
+            </p>
+
+            <h4 class="card_subtitle" data-i18n="s3_for_title">Подходящо за:</h4>
             <ul class="list">
-              <li data-i18n="s3_help_1">домът започва да работи като система</li>
-              <li data-i18n="s3_help_2">редът е устойчив, не временен</li>
-              <li data-i18n="s3_help_3">пространството диша</li>
-              <li data-i18n="s3_help_4">средата подкрепя ежедневието, вместо да го натоварва</li>
+              <li data-i18n="s3_for_1">нов дом</li>
+              <li data-i18n="s3_for_2">нов етап от живота</li>
+              <li data-i18n="s3_for_3">натрупан хаос с години</li>
+              <li data-i18n="s3_for_4">нужда от яснота, ред и ново усещане</li>
             </ul>
-          </div>
-        </div>
 
-        <div class="ba_wrap">
-          <div class="ba">
-            <button class="ba__img" data-full="assets/sol3-before.png" type="button">
-              <img src="assets/sol3-before.png" alt="Before home" />
-              <span class="ba__label" data-i18n="before">Преди</span>
-            </button>
-            <button class="ba__img" data-full="assets/sol3-after.png" type="button">
-              <img src="assets/sol3-after.png" alt="After home" />
-              <span class="ba__label" data-i18n="after">След</span>
-            </button>
-          </div>
-        </div>
-      </article>
+            <div class="grid2">
+              <div>
+                <h4 class="card__subtitle" data-i18n="do_title">Какво се прави:</h4>
+                <ul class="list">
+                  <li data-i18n="s3_do_1">цялостна организация на вещи по зони</li>
+                  <li data-i18n="s3_do_2">функционално зониране на жилището</li>
+                  <li data-i18n="s3_do_3">логика на движение и използване</li>
+                  <li data-i18n="s3_do_4">аранжиране и декорация</li>
+                  <li data-i18n="s3_do_5">при необходимост — интериорно решение и насоки за цялостна визия</li>
+                </ul>
 
-    </div>
-  </div>
-</section>
+                <p class="energy" data-i18n="s3_energy">
+                  Домът работи като система. Когато всяко нещо има място и логика, редът става устойчив — без ежедневна борба.
+                </p>
+
+                <h4 class="card__subtitle" data-i18n="help_title">Как помага:</h4>
+                <ul class="list">
+                  <li data-i18n="s3_help_1">домът започва да работи като система</li>
+                  <li data-i18n="s3_help_2">редът е устойчив, не временен</li>
+                  <li data-i18n="s3_help_3">пространството „диша“</li>
+                  <li data-i18n="s3_help_4">средата подкрепя ежедневието, вместо да го натоварва</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ba_wrap">
+              <div class="ba">
+                <button class="ba__img" data-full="assets/sol3-before.png" type="button">
+                  <img src="assets/sol3-before.png" alt="Преди — дом" />
+                  <span class="ba__label" data-i18n="before">Преди</span>
+                </button>
+                <button class="ba__img" data-full="assets/sol3-after.png" type="button">
+                  <img src="assets/sol3-after.png" alt="След — дом" />
+                  <span class="ba__label" data-i18n="after">След</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
     <!-- PRICES -->
     <section id="prices" class="section section--alt">
@@ -342,67 +342,58 @@
       </div>
     </section>
 
-   <!-- HOW -->
-<section id="how" class="section how">
-  <div class="container">
-    <h2 class="section__title" data-i18n="how_title">Как работи</h2>
+    <!-- HOW -->
+    <section id="how" class="section how">
+      <div class="container">
+        <h2 class="section__title" data-i18n="how_title">Как работи</h2>
 
-    <div class="how__timeline" role="list">
-      <!-- 1 -->
-      <div class="how__item" role="listitem">
-        <div class="how__circle">
-          <span class="how__num">1</span>
-          <!-- target icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8Zm0-13a5 5 0 1 0 5 5 5.006 5.006 0 0 0-5-5Zm0 8a3 3 0 1 1 3-3 3.003 3.003 0 0 1-3 3Z"/>
-          </svg>
+        <div class="how__timeline" role="list">
+          <div class="how__item" role="listitem">
+            <div class="how__circle">
+              <span class="how__num">1</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8Zm0-13a5 5 0 1 0 5 5 5.006 5.006 0 0 0-5-5Zm0 8a3 3 0 1 1 3-3 3.003 3.003 0 0 1-3 3Z"/>
+              </svg>
+            </div>
+            <h3 class="how__title" data-i18n="how_card_1_title">Избери проблема</h3>
+            <p class="how__text" data-i18n="how_card_1_text">Определи коя зона или пространство те затруднява.</p>
+          </div>
+
+          <div class="how__item" role="listitem">
+            <div class="how__circle">
+              <span class="how__num">2</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.2 16.6l-3.1-1.4a2 2 0 0 0-2.3.5l-1.3 1.3a15.5 15.5 0 0 1-6.5-6.5l1.3-1.3a2 2 0 0 0 .5-2.3L7.4 3.8A2 2 0 0 0 5.1 2.7L3.2 3.2A2 2 0 0 0 1.7 5.1 19.3 19.3 0 0 0 18.9 22.3a2 2 0 0 0 1.9-1.5l.5-1.9a2 2 0 0 0-1.1-2.3Z"/>
+              </svg>
+            </div>
+            <h3 class="how__title" data-i18n="how_card_2_title">Обади се директно</h3>
+            <p class="how__text" data-i18n="how_card_2_text">Без форми, без имейли — само един разговор.</p>
+          </div>
+
+          <div class="how__item" role="listitem">
+            <div class="how__circle">
+              <span class="how__num">3</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16 2h-2.2a2 2 0 0 0-3.6 0H8a2 2 0 0 0-2 2v2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-1V4a2 2 0 0 0-2-2Zm-4-0.2a1 1 0 0 1 1 1V4h-2V2.8a1 1 0 0 1 1-1ZM8 4h8v4H8Zm11 16H5V10h14Z"/>
+              </svg>
+            </div>
+            <h3 class="how__title" data-i18n="how_card_3_title">Потвърждение на обхвата</h3>
+            <p class="how__text" data-i18n="how_card_3_text">Уточняваме какво включва и какво не.</p>
+          </div>
+
+          <div class="how__item" role="listitem">
+            <div class="how__circle">
+              <span class="how__num">4</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm-1 14.4-3.4-3.4 1.4-1.4 2 2 4.8-4.8 1.4 1.4Z"/>
+              </svg>
+            </div>
+            <h3 class="how__title" data-i18n="how_card_4_title">Изпълнение и система</h3>
+            <p class="how__text" data-i18n="how_card_4_text">Доставям устойчива система за организация.</p>
+          </div>
         </div>
-        <h3 class="how__title">Избери проблема</h3>
-        <p class="how__text">Определи коя зона или пространство те затруднява.</p>
       </div>
-
-      <!-- 2 -->
-      <div class="how__item" role="listitem">
-        <div class="how__circle">
-          <span class="how__num">2</span>
-          <!-- phone icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20.2 16.6l-3.1-1.4a2 2 0 0 0-2.3.5l-1.3 1.3a15.5 15.5 0 0 1-6.5-6.5l1.3-1.3a2 2 0 0 0 .5-2.3L7.4 3.8A2 2 0 0 0 5.1 2.7L3.2 3.2A2 2 0 0 0 1.7 5.1 19.3 19.3 0 0 0 18.9 22.3a2 2 0 0 0 1.9-1.5l.5-1.9a2 2 0 0 0-1.1-2.3Z"/>
-          </svg>
-        </div>
-        <h3 class="how__title">Обади се директно</h3>
-        <p class="how__text">Без форми, без имейли – само един разговор.</p>
-      </div>
-
-      <!-- 3 -->
-      <div class="how__item" role="listitem">
-        <div class="how__circle">
-          <span class="how__num">3</span>
-          <!-- clipboard icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M16 2h-2.2a2 2 0 0 0-3.6 0H8a2 2 0 0 0-2 2v2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-1V4a2 2 0 0 0-2-2Zm-4-0.2a1 1 0 0 1 1 1V4h-2V2.8a1 1 0 0 1 1-1ZM8 4h8v4H8Zm11 16H5V10h14Z"/>
-          </svg>
-        </div>
-        <h3 class="how__title">Потвърждение на обхвата</h3>
-        <p class="how__text">Уточняваме какво включва и какво не.</p>
-      </div>
-
-      <!-- 4 -->
-      <div class="how__item" role="listitem">
-        <div class="how__circle">
-          <span class="how__num">4</span>
-          <!-- check icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm-1 14.4-3.4-3.4 1.4-1.4 2 2 4.8-4.8 1.4 1.4Z"/>
-          </svg>
-        </div>
-        <h3 class="how__title">Изпълнение и система</h3>
-        <p class="how__text">Доставям устойчива система за организация.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section section--alt">
@@ -412,40 +403,79 @@
 
         <div class="contactbox">
           <a class="btn btn--primary" href="tel:+359988371908" data-i18n="contact_call">Обади се: +359 988 371 908</a>
+
           <div class="social-icons" aria-label="Social links">
-  <a class="social-icon" href="https://www.facebook.com/profile.php?id=61583352183946" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-      <path d="M22 12a10 10 0 1 0-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.88h-2.33v6.99A10 10 0 0 0 22 12z" />
-    </svg>
-  </a>
+            <a class="social-icon" href="https://www.facebook.com/profile.php?id=61583352183946" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path d="M22 12a10 10 0 1 0-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.88h-2.33v6.99A10 10 0 0 0 22 12z" />
+              </svg>
+            </a>
 
-  <a class="social-icon" href="https://www.instagram.com/hurlyburlyfixme/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-      <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.8 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z" />
-    </svg>
-  </a>
+            <a class="social-icon" href="https://www.instagram.com/hurlyburlyfixme/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.8 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z" />
+              </svg>
+            </a>
 
-  <a class="social-icon" href="https://linktr.ee/hurlyburlyfixme" target="_blank" rel="noopener noreferrer" aria-label="Linktree">
-    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-      <path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.6-3.6a3 3 0 1 1 4.2 4.2l-2.1 2.1a1 1 0 1 1-1.4-1.4l2.1-2.1a1 1 0 1 0-1.4-1.4l-3.6 3.6a1 1 0 0 1-1.4 0z" />
-      <path d="M13.4 10.6a1 1 0 0 1 0 1.4l-3.6 3.6a3 3 0 1 1-4.2-4.2l2.1-2.1a1 1 0 1 1 1.4 1.4l-2.1 2.1a1 1 0 1 0 1.4 1.4l3.6-3.6a1 1 0 0 1 1.4 0z" />
-    </svg>
-  </a>
+            <a class="social-icon" href="https://linktr.ee/hurlyburlyfixme" target="_blank" rel="noopener noreferrer" aria-label="Linktree">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.6-3.6a3 3 0 1 1 4.2 4.2l-2.1 2.1a1 1 0 1 1-1.4-1.4l2.1-2.1a1 1 0 1 0-1.4-1.4l-3.6 3.6a1 1 0 0 1-1.4 0z" />
+                <path d="M13.4 10.6a1 1 0 0 1 0 1.4l-3.6 3.6a3 3 0 1 1-4.2-4.2l2.1-2.1a1 1 0 1 1 1.4 1.4l-2.1 2.1a1 1 0 1 0 1.4 1.4l3.6-3.6a1 1 0 0 1 1.4 0z" />
+              </svg>
+            </a>
 
-  <a class="social-icon" href="mailto:hurlyburlyfix@gmail.com" aria-label="Email">
-    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-      <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
-    </svg>
-  </a>
-</div>
+            <a class="social-icon" href="mailto:hurlyburlyfix@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- FAQ (visible) -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section__title">Често задавани въпроси</h2>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Как протича услугата?</summary>
+            <p>Кратък разговор → уточняваме обхвата → избираме формат (на място/онлайн/хибрид) → работим по план → получаваш система за поддръжка.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Работиш ли на място в София?</summary>
+            <p>Да — работя на място в София. Възможни са и онлайн/хибридни варианти според задачата.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Колко време отнема?</summary>
+            <p>Зависи от зоната и обема. След кратък разговор уточняваме реалистичен план и време за изпълнение.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Какво включва „Една зона ме побърква“?</summary>
+            <p>Анализ, селекция, функционално разпределение и подредба на конкретна зона (гардероб/кухня/антре/шкаф), така че да се поддържа лесно.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Трябва ли да изхвърлям много неща?</summary>
+            <p>Не задължително. Целта е ясна логика и работеща система. Решенията са съобразени с навиците ти и реалните нужди.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Как да се свържа най-бързо?</summary>
+            <p>Най-бързо става с обаждане или съобщение. Телефонът е на сайта, както и линковете към социалните канали.</p>
+          </details>
         </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="container footer__inner">
-        <span>© <span id="year"></span> Hurly-burly fix me</span>
+        <span>© <span id="year"></span> Hurly-Burly Fix</span>
         <span class="footer__sep">•</span>
         <span data-i18n="footer_tag">From chaos to order</span>
       </div>
@@ -454,49 +484,50 @@
 
   <!-- Lightbox -->
   <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox__close" id="lbClose" aria-label="Close">×</button>
+    <button class="lightbox__close" id="lbClose" aria-label="Close" type="button">×</button>
     <img class="lightbox__img" id="lbImg" alt="Preview" />
   </div>
 
   <script src="app.js"></script>
-  <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
-    {
-      "@type":"Question",
-      "name":"Как протича услугата?",
-      "acceptedAnswer":{"@type":"Answer","text":"Кратък разговор → уточняваме обхвата → избираме формат (на място/онлайн/хибрид) → работим по план → получаваш система за поддръжка."}
-    },
-    {
-      "@type":"Question",
-      "name":"Работиш ли на място в София?",
-      "acceptedAnswer":{"@type":"Answer","text":"Да — работя на място в София. Възможни са и онлайн/хибридни варианти според задачата."}
-    },
-    {
-      "@type":"Question",
-      "name":"Колко време отнема?",
-      "acceptedAnswer":{"@type":"Answer","text":"Зависи от зоната и обема. След кратък разговор уточняваме реалистичен план и време за изпълнение."}
-    },
-    {
-      "@type":"Question",
-      "name":"Какво включва „Една зона ме побърква“?",
-      "acceptedAnswer":{"@type":"Answer","text":"Анализ, селекция, функционално разпределение и подредба на конкретна зона (гардероб/кухня/антре/шкаф), така че да се поддържа лесно."}
-    },
-    {
-      "@type":"Question",
-      "name":"Трябва ли да изхвърлям много неща?",
-      "acceptedAnswer":{"@type":"Answer","text":"Не задължително. Целта е ясна логика и работеща система. Решенията са съобразени с навиците ти и реалните нужди."}
-    },
-    {
-      "@type":"Question",
-      "name":"Как да се свържа най-бързо?",
-      "acceptedAnswer":{"@type":"Answer","text":"Най-бързо става с обаждане или съобщение. Телефонът е на сайта, както и линковете към социалните канали."}
-    }
-  ]
-}
-</script>
 
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"Как протича услугата?",
+        "acceptedAnswer":{"@type":"Answer","text":"Кратък разговор → уточняваме обхвата → избираме формат (на място/онлайн/хибрид) → работим по план → получаваш система за поддръжка."}
+      },
+      {
+        "@type":"Question",
+        "name":"Работиш ли на място в София?",
+        "acceptedAnswer":{"@type":"Answer","text":"Да — работя на място в София. Възможни са и онлайн/хибридни варианти според задачата."}
+      },
+      {
+        "@type":"Question",
+        "name":"Колко време отнема?",
+        "acceptedAnswer":{"@type":"Answer","text":"Зависи от зоната и обема. След кратък разговор уточняваме реалистичен план и време за изпълнение."}
+      },
+      {
+        "@type":"Question",
+        "name":"Какво включва „Една зона ме побърква“?",
+        "acceptedAnswer":{"@type":"Answer","text":"Анализ, селекция, функционално разпределение и подредба на конкретна зона (гардероб/кухня/антре/шкаф), така че да се поддържа лесно."}
+      },
+      {
+        "@type":"Question",
+        "name":"Трябва ли да изхвърлям много неща?",
+        "acceptedAnswer":{"@type":"Answer","text":"Не задължително. Целта е ясна логика и работеща система. Решенията са съобразени с навиците ти и реалните нужди."}
+      },
+      {
+        "@type":"Question",
+        "name":"Как да се свържа най-бързо?",
+        "acceptedAnswer":{"@type":"Answer","text":"Най-бързо става с обаждане или съобщение. Телефонът е на сайта, както и линковете към социалните канали."}
+      }
+    ]
+  }
+  </script>
 </body>
 </html>
